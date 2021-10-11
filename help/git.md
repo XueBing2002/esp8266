@@ -32,6 +32,48 @@ commitID是git提交的历史版本号，上git上面找到复制下来就行
 注意：这里我们要注意，当我们执行了第二步操作之后，远端的代码就已经被强制替换掉 在 “ 139dcfaa558e3276b30b6b2e5cbbb9c00bbdca96  “之后提交的分支git提交历史上就找不到了 所以我们强制推到远端一定要记得备份代码
 
 
+
+
+
+
+
+ git 清空所有commit记录方法
+
+说明：例如将代码提交到git仓库，将一些敏感信息提交，所以需要删除提交记录以彻底清除提交信息，以得到一个干净的仓库且代码不变
+1.Checkout
+```
+    git checkout --orphan latest_branch
+```
+2. Add all the files
+```
+    git add -A
+```
+3. Commit the changes
+```
+    git commit -am "commit message"
+```
+4. Delete the branch
+```
+    git branch -D master
+```
+5.Rename the current branch to master
+```
+    git branch -m master
+```
+6.Finally, force update your repository
+```
+    git push -f origin master
+```
+
+
+
+
+
+
+
+
+
+
 ## git 常见错误
  > ### 网络错误
 ```
@@ -44,15 +86,3 @@ and the repository exists.
 ```
 
 
-
- > ### 提交失败
-```
-$ git push origin main
-To github.com:XueBing2002/esp8266.git
- ! [rejected]        main -> main (non-fast-forward)
-error: failed to push some refs to 'github.com:XueBing2002/esp8266.git'
-hint: Updates were rejected because the tip of your current branch is behind
-hint: its remote counterpart. Integrate the remote changes (e.g.
-hint: 'git pull ...') before pushing again.
-hint: See the 'Note about fast-forwards' in 'git push --help' for details.
-```
