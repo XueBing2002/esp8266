@@ -19,29 +19,19 @@
 
 
 ## git 分支操作
-	#### 查看分支
+>>#### 查看分支
 ```
 git branch
 ```	
-	#### 合并分支(合并到当前分区)
+>#### 合并分支(合并到当前分区)
 ```
 git merge 分支名
 ```	
-	#### 删除分支
+>>>#### 删除分支
 ```
 git branch -d 分支名
 ```	
-<details>
-<summary>
-展开查看
-</summary>
-<pre><code>
-dfasdfasfdas
-fddsfasfdasfd
-asdfasfdasfdas
-</code></pre>
 
-</details>
 
 
 
@@ -154,3 +144,16 @@ fatal: refusing to merge unrelated histories
 ```
 git push origin main --allow-unrelated-history
 ```
+
+
+
+<details>
+<summary>
+展开查看
+</summary>
+<pre><code>
+dfasdfasfdas
+fddsfasfdasfd
+asdfasfdasfdas
+</code></pre>
+</details>
