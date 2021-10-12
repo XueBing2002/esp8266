@@ -4,30 +4,33 @@
 ## git 常用命令
 
 >>#### 将所有文件添加到暂存区
->>```
+```
 git add 
-
+```
 >>#### 提交到本地仓库
->>``` 
+``` 
 git commit -m "版本描述"
-
+```
 #### push到远程main分支
-
->>```
+```
 git push origin main
-
+```
 #### 删除文件
-``` git rm FileName ```
+```
+git rm FileName
+```
 
 #### 文件重命名
-``` git mv oldName  newName  ```
+```
+git mv oldName  newName
+```
 
 
 ## git 分支操作
 >>#### 查看分支
-```
-git branch
-```	
+
+	git branch
+
 >#### 合并分支test01(合并到当前分区)
 ```
 git merge test01
