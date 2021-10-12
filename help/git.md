@@ -1,4 +1,4 @@
-﻿# git 学习笔记10.12a
+# git 学习笔记10.12a
 
 
 ## git 常用命令
@@ -16,6 +16,14 @@
 
 #### 文件重命名
 ``` git mv oldName  newName  ```
+
+
+## git 分支操作
+```git branch```			查看分支
+```git branch -d 分支名```	删除分支
+
+
+
 
 #### 修正提交的message
 ``` git commit --amend -m "正确的commit message"
