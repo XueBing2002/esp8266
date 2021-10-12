@@ -1,18 +1,20 @@
 # git 学习笔记10.12
-# 测试稳定版1.0
-
-# 这是稳定版的紧急修复与iss53分支合并
 
 
 ## git 常用命令
 
-#### 将所有文件添加到暂存区
-```git add *```  
-#### 提交到本地仓库
-```git commit -m "版本描述" ```
-   
+>>#### 将所有文件添加到暂存区
+>>```
+git add 
+
+>>#### 提交到本地仓库
+>>``` 
+git commit -m "版本描述"
+
 #### push到远程main分支
-```git push origin main ```   
+
+>>```
+git push origin main
 
 #### 删除文件
 ``` git rm FileName ```
@@ -26,13 +28,13 @@
 ```
 git branch
 ```	
->#### 合并分支(合并到当前分区)
+>#### 合并分支test01(合并到当前分区)
 ```
-git merge 分支名
+git merge test01
 ```	
->>>#### 删除分支
+>>>#### 删除分支test01
 ```
-git branch -d 分支名
+git branch -d test01
 ```	
 >>#### 检出分支test01并切换
 ```
@@ -60,7 +62,7 @@ git rm --f readme1.txt```
     删除readme1.txt的跟踪，并且删除本地文件。
 
 ### 忽略文件
-    工作目录建立.gitignore
+    工作目录建立.gitignore
     支持通配符 *
 
 
@@ -160,6 +162,9 @@ fddsfasfdasfd
 asdfasfdasfdas
 </code></pre>
 </details>
+
+
+
 
 
 
