@@ -21,15 +21,15 @@
 
 	git branch
 
->#### 合并分支test01(合并到当前分区)
-	git merge test01
->>>#### 删除分支test01
-	git branch -d test01
->>#### 检出分支test01并切换
-	git checkout -b test01
+>#### 合并分支branch01(合并到当前分区)
+	git merge branch01
+>>>#### 删除分支branch01
+>>	git branch -d branch01
+>>#### 检出分支branch01并切换
+	git checkout -b branch01
 >>>>###### 等同于下面两条命令：
-		git branch test01
-		git checkout test01
+	git branch branch01
+	git checkout branch01
 
 
 ``` git commit --amend -m "正确的commit message"
