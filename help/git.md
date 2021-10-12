@@ -78,10 +78,9 @@ commitID是git提交的历史版本号，上git上面找到复制下来就行
 ## git 清空所有commit记录方法
 
 说明：例如将代码提交到git仓库，将一些敏感信息提交，所以需要删除提交记录以彻底清除提交信息，以得到一个干净的仓库且代码不变
-1. Checkout
-	git checkout --orphan latest_branch
-2. Add all the files
-	git add -A
+	git checkout --orphan latest_branch	#1. Checkout
+	git add -A				#2. Add all the files
+
 3. Commit the changes
 	git commit -am "commit message"
 4. Delete the branch
