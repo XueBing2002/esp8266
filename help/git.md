@@ -34,8 +34,6 @@ git branch -d 分支名
 
 
 
-
-#### 修正提交的message
 ``` git commit --amend -m "正确的commit message"
 
 
@@ -132,9 +130,7 @@ fatal: Could not read from remote repository.
 
 Please make sure you have the correct access rights
 and the repository exists.
-
-
-
+```
 
 ```
  > git push错误
@@ -144,8 +140,6 @@ fatal: refusing to merge unrelated histories
 ```
 git push origin main --allow-unrelated-history
 ```
-
-
 
 <details>
 <summary>
@@ -157,3 +151,6 @@ fddsfasfdasfd
 asdfasfdasfdas
 </code></pre>
 </details>
+
+
+
