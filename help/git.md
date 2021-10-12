@@ -1,4 +1,5 @@
-# git 学习笔记10.12a
+# git 学习笔记10.12
+# 测试稳定版1.0
 
 
 ## git 常用命令
@@ -10,7 +11,7 @@
    
 #### push到远程main分支
 ```git push origin main ```   
-`
+
 #### 删除文件
 ``` git rm FileName ```
 
