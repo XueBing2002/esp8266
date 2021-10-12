@@ -31,7 +31,17 @@ git merge 分支名
 ```
 git branch -d 分支名
 ```	
+<details>
+<summary>
+展开查看
+</summary>
+<pre><code>
+dfasdfasfdas
+fddsfasfdasfd
+asdfasfdasfdas
+</code></pre>
 
+</details>
 
 
 
@@ -133,7 +143,7 @@ fatal: Could not read from remote repository.
 Please make sure you have the correct access rights
 and the repository exists.
 
-[jump](#修正提交的message)
+
 
 
 ```
@@ -144,37 +154,3 @@ fatal: refusing to merge unrelated histories
 ```
 git push origin main --allow-unrelated-history
 ```
-
-[]
-
-* [1.语法示例](#1)
-* [1.1图片](#1.1)
-* [1.2换行](#1.2)
-* [1.3强调](#1.3)
-
-<h3 id="1">1图片</h3>
-这是第一段
-这是第一段
-这是第一段
-这是第一段
-<h3 id="1.1">1.1图片</h3>
-这是第一段第一节
-这是第一段第一节
-这是第一段第一节
-这是第一段第一节
-这是第一段第一节
-<h3 id="1.2">1.2换行</h3>
-这是第一段第二节
-这是第一段第二节
-这是第一段第二节
-这是第一段第二节
-这是第一段第二节
-<h3 id="1.1">1.3强调</h3>
-这是第一段第三节
-这是第一段第三节
-这是第一段第三节
-这是第一段第三节
-这是第一段第三节
-
-
-[]
