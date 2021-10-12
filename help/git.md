@@ -7,14 +7,15 @@
 	git add 
 >>#### 提交到本地仓库
 	git commit -m "版本描述"
+>>>>###### 修正最近一次错误的版本描述
+	git commit --amend -m "正确的版本描述"	
 >>#### push到远程main分支
 	git push origin main
+
 >>#### 删除文件
 	git rm FileName
 >>#### 文件重命名
 	git mv oldName  newName
-
-
 
 ## git 分支操作
 >>#### 查看分支
@@ -24,7 +25,7 @@
 >#### 合并分支branch01(合并到当前分区)
 	git merge branch01
 >>>#### 删除分支branch01
->>	git branch -d branch01
+	git branch -d branch01
 >>#### 检出分支branch01并切换
 	git checkout -b branch01
 >>>>###### 等同于下面两条命令：
@@ -32,7 +33,7 @@
 	git checkout branch01
 
 
-``` git commit --amend -m "正确的commit message"
+``` 
 
 
 #### git help
