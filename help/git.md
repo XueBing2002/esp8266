@@ -1,5 +1,6 @@
 # git 学习笔记10.12
 # 测试稳定版1.0
+# 这是稳定版的紧急修复
 
 
 ## git 常用命令
@@ -32,7 +33,13 @@ git merge 分支名
 ```
 git branch -d 分支名
 ```	
-
+>>#### 检出分支test01并切换
+```
+git checkout -b test01
+```
+>>>等同于下面两条命令：
+git branch test01
+git checkout test01
 
 
 ``` git commit --amend -m "正确的commit message"
