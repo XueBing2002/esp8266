@@ -132,6 +132,10 @@ fatal: Could not read from remote repository.
 
 Please make sure you have the correct access rights
 and the repository exists.
+
+[jump](#修正提交的message)
+
+
 ```
  > git push错误
 fatal: refusing to merge unrelated histories
@@ -140,6 +144,9 @@ fatal: refusing to merge unrelated histories
 ```
 git push origin main --allow-unrelated-history
 ```
+
+[]
+
 * [1.语法示例](#1)
 * [1.1图片](#1.1)
 * [1.2换行](#1.2)
@@ -168,3 +175,6 @@ git push origin main --allow-unrelated-history
 这是第一段第三节
 这是第一段第三节
 这是第一段第三节
+
+
+[]
