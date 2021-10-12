@@ -39,15 +39,11 @@
 
 
 ### 对某个文件取消跟踪
-```
-git rm --cached readme1.txt```    删除readme1.txt的跟踪，并保留在本地。
-```
-git rm --f readme1.txt```
-    删除readme1.txt的跟踪，并且删除本地文件。
+
+	git rm --cached readme1.txt    删除readme1.txt的跟踪，并保留在本地。
 
 ### 忽略文件
-    工作目录建立.gitignore
-    支持通配符 *
+    工作目录建立 .gitignore，将需要忽略文件名输入其中，支持通配符 *
 
 
 
@@ -57,7 +53,7 @@ git rm --f readme1.txt```
 
 1、在开发过程中遇到合并别人的代码或者合并主分支的代码导致自己的分支代码冲突或有别的问题，这时我们需要回退某个git提交历史的代码 用一下命令
 
-```git reset --hard commitID ```
+	git reset --hard commitID
 
 commitID是git提交的历史版本号，上git上面找到复制下来就行
 
@@ -66,7 +62,7 @@ commitID是git提交的历史版本号，上git上面找到复制下来就行
 
 但是只是我们本地的代码回退了 如果需要push到远端需要执行以下操作
 
-```git push -f -u origin master```
+	git push -f -u origin master
 
 (需要push到远端的分支)
 强制提交到master分支,远端的分支将会被替换，
@@ -82,35 +78,18 @@ commitID是git提交的历史版本号，上git上面找到复制下来就行
 ## git 清空所有commit记录方法
 
 说明：例如将代码提交到git仓库，将一些敏感信息提交，所以需要删除提交记录以彻底清除提交信息，以得到一个干净的仓库且代码不变
-1.Checkout
-```
-    git checkout --orphan latest_branch
-```
+1. Checkout
+	git checkout --orphan latest_branch
 2. Add all the files
-```
-    git add -A
-```
+	git add -A
 3. Commit the changes
-```
-    git commit -am "commit message"
-```
+	git commit -am "commit message"
 4. Delete the branch
-```
-    git branch -D master
-```
-5.Rename the current branch to master
-```
-    git branch -m master
-```
-6.Finally, force update your repository
-```
-    git push -f origin master
-```
-
-
-
-
-
+	git branch -D master
+5. Rename the current branch to master
+	git branch -m master
+6. Finally, force update your repository
+	git push -f origin master
 
 
 
@@ -118,23 +97,23 @@ commitID是git提交的历史版本号，上git上面找到复制下来就行
 
 ## git 常见错误
  > ### 网络错误
-```
-$ git push origin main
+
+	git push origin main
 ssh: connect to host github.com port 22: Connection timed out
 fatal: Could not read from remote repository.
 
 Please make sure you have the correct access rights
 and the repository exists.
-```
 
-```
+
+
  > git push错误
 fatal: refusing to merge unrelated histories
 （拒绝合并不相关的历史）
 解决方法：
-```
-git push origin main --allow-unrelated-history
-```
+
+	git push origin main --allow-unrelated-history
+
 
 <details>
 <summary>
