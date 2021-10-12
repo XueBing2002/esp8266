@@ -19,9 +19,7 @@
 
 ## git 分支操作
 >>#### 查看分支
-
 	git branch
-
 >#### 合并分支branch01(合并到当前分区)
 	git merge branch01
 >>>#### 删除分支branch01
@@ -32,14 +30,12 @@
 	git branch branch01
 	git checkout branch01
 
-
-``` 
-
-
-#### git help
-``` git help config 
-or  git config --help
-or  main git-config  ```
+## git 帮助
+	git help
+	git branch -help   (获取git branch命令的更多参数)  
+	git help config  (web)
+	git config --help (windows下未验证)
+	man git-config   (windows下未验证)
 
 
 ### 对某个文件取消跟踪
