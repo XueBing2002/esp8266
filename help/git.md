@@ -20,10 +20,18 @@
 ## git 分支操作
 >>#### 查看分支
 	git branch
->#### 合并分支branch01(合并到当前分区)
+>>#### 创建分支
+        git branch branch01
+>>#### 切换分支
+        git checkout -
+	git checkout branch01
+>>#### 合并分支branch01(合并到当前分区)
 	git merge branch01
->>>#### 删除分支branch01
-	git branch -d branch01
+>>#### 删除分支branch01
+	git branch -d branch01 
+        git branch -D branch01 #强制删除,慎用
+ 
+
 >>#### 检出分支branch01并切换
 	git checkout -b branch01
 >>>>###### 等同于下面两条命令：
