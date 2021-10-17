@@ -45,6 +45,9 @@
 	git config --help (windows下未验证)
 	man git-config   (windows下未验证)
 
+## 查看全局配置
+git config --global --list
+
 
 ### 对某个文件取消跟踪
 
